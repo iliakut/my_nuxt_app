@@ -23,7 +23,7 @@
 </template>
 
 <script>
-//1234
+//12345
 import Logo from '~/components/Logo.vue'
 
 export default {
