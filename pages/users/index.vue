@@ -29,9 +29,9 @@
       которая привязана в нутри копонента
       -->
       <template slot="row" slot-scope="user">
-        <router-link :to="'/users/edit/?id=' + user.id">
+        <nuxt-link :to="'/users/edit/?id=' + user.id">
           <td>{{ user.id }}</td>
-        </router-link>
+        </nuxt-link>
         <td>{{ user.firstName }}</td>
         <td>{{ user.lastName }}</td>
         <td>{{ user.email }}</td>
@@ -72,6 +72,6 @@ export default {
 
 <style scoped>
 h1 {
-  color: #4e0435;
+  color: #2e041e;
 }
 </style>

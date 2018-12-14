@@ -42,7 +42,7 @@ export default {
   asyncData(route) {
     // для прередненинга данных
     return axios
-      .get('http://localhost:3004/users/${route.query.id}')
+      .get(`http://localhost:3004/users/${route.query.id}`)
       .then(response => response.data)
       .then(response => {
         return {
