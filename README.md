@@ -20,3 +20,6 @@ $ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+demo: https://ilia-nuxt-app.herokuapp.com/Users
+the demo can't load users list (it is need to run fake server)
